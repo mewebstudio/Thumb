@@ -1,0 +1,23 @@
+{
+    "name": "mews/thumb",
+    "description": "PHPThumb Package for Laravel 4 (Personal version)",
+    "keywords": ["L4", "Laravel 4", "Laravel", "PHPThumb", "image", "thumb", "Thumbnail"],
+    "homepage": "http://github.com/mewebstudio/Thumb",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muharrem ERIN",
+            "email": "me@mewebstudio.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mews\\Thumb": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
